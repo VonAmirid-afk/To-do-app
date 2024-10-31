@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: pink;
+}
+
+.to-do-app {
+  box-shadow: 0 26px 58px 0 rgba(0, 0, 0, 0.22),
+    0 5px 14px 0 rgba(0, 0, 0, 0.18);
+  width: 100%;
+  max-width: 25rem;
+  background-color: #fff;
+  padding: 2.5rem 2rem 3rem;
+  margin: 7rem auto 1.5rem;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  padding-left: 1.5rem;
+  margin-bottom: 1.8rem;
+  background-color: #5555;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.btn-add {
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.list-task li {
+  list-style: none;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+}
+
+.btn-check {
+  justify-content: flex-start;
+  border: none;
+  background: none;
+}
+
+.check-box {
+  color: pink;
+}
+
+.list-task {
+  text-align: left;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.check-box[name="checkmark-circle"] {
+  color: pink;
+}
+
+.btn-check {
+  position: absolute;
+  left: 0;
+  font-size: 24px;
+  border: none;
+}
+
+.trash {
+  right: 0;
+  font-size: 24px;
+  position: absolute;
+  color: pink;
+}
